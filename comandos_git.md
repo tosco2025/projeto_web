@@ -9,3 +9,6 @@ git add "nome_do_arquivo"
 
 # Para criar o ponto na linha do tempo (commit)
 git commit -m "Mensagem sobre o commit"
+
+# Para mandar modificações para o GitHub (Repositório Remoto)
+git push origin
