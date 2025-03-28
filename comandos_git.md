@@ -11,4 +11,4 @@ git add "nome_do_arquivo"
 git commit -m "Mensagem sobre o commit"
 
 # Para mandar modificações para o GitHub (Repositório Remoto)
-git push origin
+git push origin main
