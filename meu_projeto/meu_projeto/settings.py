@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core', # Adicionando a nova aplicação Django
+    'site_institucional', # Adicionando a aplicação site_institucional
+    'app_cadastro', # Criando um formulário de cadastro de Clientes
 ]
 
 MIDDLEWARE = [
