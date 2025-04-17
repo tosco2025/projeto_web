@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+#from django.conf import settings
+#from django.conf.urls.static import static
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')), # Importando as rotas da aplicação "core"
     path('', include('site_institucional.urls')), # Importando as rotas da aplicação "site_institucional"
     path('', include('app_cadastro.urls')), # Importando as rotas da aplicação "app_cdastro"
+    path('', include('site_django.urls')), # Importando as rotas do site_django Projeto HTML
     ]

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'core', # Adicionando a nova aplicação Django
     'site_institucional', # Adicionando a aplicação site_institucional
     'app_cadastro', # Criando um formulário de cadastro de Clientes
+    'site_django', # Realizando o Desafio de Inserir o Site do Projeto HTML + CSS + JS
 ]
 
 MIDDLEWARE = [
